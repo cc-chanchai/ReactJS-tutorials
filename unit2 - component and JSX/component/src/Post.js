@@ -1,9 +1,10 @@
 import React , { component, Component } from 'react'
+
 class Post extends Component {
     render() {
         return (
             <div>
-                This Post component!!!
+                This Post : Class Component
             </div>
         )
     }
