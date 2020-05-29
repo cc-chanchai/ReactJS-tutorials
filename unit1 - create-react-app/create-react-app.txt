@@ -1,0 +1,7 @@
+การติดตั้ง create-react-app
+1. npm install -g create-react-app // ติดตั้งแพคเกต create-react-app -> create-react-app ประกอบด้วย webpack and babel
+2. create-react-app --version
+
+การสร้างโปรเจคใหม่
+1. create-react-app folder-name
+2.  เข้าโฟลเดอร์โปรเจค ใช้ npm start รันโปรเจค
