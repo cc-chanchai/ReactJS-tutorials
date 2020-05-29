@@ -1,0 +1,27 @@
+component มี 2 แบบ
+1. Dumb component (Stateless component) มีข้อมูลหรือสถานะตายตัว แสดงบนหน้าจอแล้วจะไม่มีการเปลี่ยนแปลง เช่น เมนูที่อยู่ในเว็บไซต์
+2. Smart component (Statefull component) มีเนื้อหาเปลี่ยนไปจามสถานะของข้อมูล เช่น เนื้อหาข่าว ตารางแสดงสินค้า
+
+การสร้าง Component มี 2 รูปแบบ
+1. Class component สร้างจาก class โดยใช้เมธอด Render() เพื่อรีเทิร์นเนื้อหาแสดงที่หน้าจอ
+
+import React, { component } from 'react'
+class Post extends Component
+    render() {
+        return (
+            <div>
+                <p>Class Component</p>
+            </div>
+        )
+    }
+
+2. Function component สร้างจากฟังก์ชัน เนื้อหาของคอมโพเนน คือ ส่วนที่รีเทิร์นมาจากฟังก์ชัน
+
+import React from 'react'
+cons Post = () => {
+    return(
+        <div>
+            <p>Function Component</p>
+        </div>
+    )
+}
